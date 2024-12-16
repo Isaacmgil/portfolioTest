@@ -1218,3 +1218,38 @@ body{
     width: 100%;
     height: 14rem;
 }
+
+.switcher{
+    display: block;
+    position: fixed;
+    top: 45rem;
+    right: 148px; 
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--color-secondary);
+    border-radius: 50px;
+    padding: 1rem;
+    z-index: 5;
+}
+
+.switcher__btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    right: 0;
+}
+
+.switcher__icon-light,
+.switcher__icon-dark{
+    color: var(--color-principal);
+    font-size: 1.8rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+}
+
+.switcher__icon-dark{
+    display: none;
+}
